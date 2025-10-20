@@ -1,6 +1,6 @@
 # Auth System
 
-A robust user authentication system for Hacktoberfest2025 using Flask, OAuth2 (Google), and JWT.
+A robust user authentication system for Hackotberfest2025 using Flask, OAuth2 (Google), and JWT.
 
 ## Features
 - User registration and login
@@ -13,10 +13,9 @@ A robust user authentication system for Hacktoberfest2025 using Flask, OAuth2 (G
    ```bash
    pip install -r requirements.txt
    ```
-2. Set environment variables:
-   - `SECRET_KEY` (required, use a strong random value)
-   - `GOOGLE_CLIENT_ID` (for Google OAuth2)
-   - `GOOGLE_CLIENT_SECRET` (for Google OAuth2)
+2. Set environment variables for Google OAuth2:
+   - `GOOGLE_CLIENT_ID`
+   - `GOOGLE_CLIENT_SECRET`
 3. Run the app:
    ```bash
    python app.py
